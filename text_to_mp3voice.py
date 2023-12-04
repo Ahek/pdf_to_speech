@@ -1,4 +1,4 @@
-from tika_pdf_reader import get_pagetext, text_to_chunks
+from pdftotext import get_pagetext, text_to_chunks
 from pypdf import PdfReader
 from gtts import gTTS
 import os
