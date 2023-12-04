@@ -1,8 +1,6 @@
 from pypdf import PdfReader
 import re
 
-path = r"C:\Users\..."
-
 def get_pagetext(path, pagenr, reader):
     '''
     Parameters
