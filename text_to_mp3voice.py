@@ -4,7 +4,7 @@ from gtts import gTTS
 import os
 #needs to be run in gtts_env
 
-pdf_path = r"C:\Users\arent\Documents\anime\Shield hero\Full volumes\The_Rising_of_the_Shield_Hero_Volume_12.pdf"
+pdf_path = r"C:\Users\..."
 
 reader = PdfReader(pdf_path)
 
@@ -14,8 +14,8 @@ def create_directory(path, name):
     if not os.path.isdir(fr'{path}\{name}'):
         os.makedirs(fr'{path}\{name}')
         
-saving_directory = r"C:\Users\arent\Documents\OtherStuff\scraping"
-map_name = "ShieldHeroV12C200"
+saving_directory = r"C:\Users\..."
+map_name = "..."
 create_directory(saving_directory, map_name)
     
 for page_nr in range(200, 210):
