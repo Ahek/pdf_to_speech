@@ -1,7 +1,7 @@
 from pypdf import PdfReader
 import re
 
-path = r"C:\Users\arent\Documents\anime\Shield hero\Full volumes\The_Rising_of_the_Shield_Hero_Volume_12.pdf"
+path = r"C:\Users\..."
 
 def get_pagetext(path, pagenr, reader):
     '''
